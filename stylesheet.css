@@ -264,7 +264,7 @@ header {
     max-width: 35em;
     width: 100%;
     margin: 2em auto;
-    text-align: start;
+    text-align: justify;
 
 }
 
@@ -358,12 +358,15 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    text-align: justify;
     background-color: var(--clr-light);
     color: var(--clr-dark);
 }
 
 .about-me-body {
-    max-width: 50rem;
+    max-width: 36em;
+    width: 100%;
+    margin: 2em .5em;
 }
 
 
